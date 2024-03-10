@@ -18,6 +18,7 @@ function Chat() {
         headers: {
           "Content-Type": "application/json",
         },
+        openWhenHidden: true,
         body: JSON.stringify({
           message: message,
         }),
